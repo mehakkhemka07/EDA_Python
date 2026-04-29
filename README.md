@@ -1,10 +1,10 @@
-# 🔬 Breast Cancer Diagnosis – Exploratory Data Analysis
+# Breast Cancer Diagnosis – Exploratory Data Analysis
 
 > A thorough EDA using **NumPy · Pandas · Matplotlib · Seaborn** to uncover patterns in tumour morphology features that distinguish malignant from benign breast masses.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 breast-cancer-eda/
@@ -23,7 +23,7 @@ breast-cancer-eda/
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 | Property | Value |
 |---|---|
@@ -37,7 +37,7 @@ Features are computed from digitised images of fine needle aspirate (FNA) biopsi
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
 ### Requirements
 
@@ -56,7 +56,7 @@ All 7 plots are saved as `.png` files in the working directory.
 
 ---
 
-## 🔍 EDA Steps
+## EDA Steps
 
 ### Step 1 – Data Loading & Cleaning
 - Loaded with `pd.read_csv()`; inspected shape, dtypes, and `isnull()` counts.
@@ -84,7 +84,7 @@ All 7 plots are saved as `.png` files in the working directory.
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 1. **Class imbalance** is mild (63/37 split) but worth addressing with stratified sampling or SMOTE in any downstream model.
 2. **Size features are the best separators** – malignant tumours consistently show larger radius, perimeter, and area.
